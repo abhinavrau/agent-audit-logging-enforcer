@@ -1,0 +1,7 @@
+functions-framework>=3.8.0
+cloudevents>=1.10.0
+google-cloud-dialogflow-cx>=1.33.0
+google-cloud-discoveryengine>=0.13.0
+google-cloud-logging>=3.11.0
+protobuf>=4.25.0
+pytest>=8.0.0

@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+build/
+tfplan
+
+# Credentials, Keys & Secrets
+*.key.json
+*sa-key*.json
+credentials.json
+service-account*.json
+.env
+*.env
+
+# Local agent deployment metadata & logs
+test_agent/deployment_metadata.json
+test_agent/deployment_metadata.json.lock
+test_agent/.google-agents-cli/
+test_agent/.env

@@ -1,0 +1,11 @@
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+function_name = "agent-audit-logging-remediator"
+
+# Gemini Enterprise (Discovery Engine) logging enforcement toggles
+enforce_ge_telemetry_logging = true
+enforce_ge_prompt_logging    = true
+
+# Dialogflow CX logging enforcement toggles
+enforce_df_telemetry_logging = true
+enforce_df_prompt_logging    = true
